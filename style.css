@@ -1,0 +1,162 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: black;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Header */
+.header {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 39px;
+    left: 10px;
+}
+
+.nav-bar {
+    margin-left: auto;
+    background: rgba(194, 208, 186, 0.68);
+    height: 100%;
+    width: 1088px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logo-img {
+    position: absolute;
+    width: 201px;
+    height: 151px;
+    left: 66px;
+    top: 68px;
+}
+
+/* Category Sections */
+.category {
+    margin-top: 50px;
+}
+
+.category-title {
+    background: #D9D9D9;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.product-banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Best Sellers */
+.best-sellers {
+    margin-top: 100px;
+}
+
+.section-label {
+    background: #D9D9D9;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 32px;
+}
+
+.featured-img {
+    width: 1228px;
+    display: block;
+    margin: 50px auto;
+}
+
+/* Footer Section */
+.footer {
+    background: #F2D3D3;
+    width: 100%;
+    padding: 60px 45px;
+    margin-top: 100px;
+}
+
+.footer-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2A2121;
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-item img {
+    width: 90px;
+    height: 90px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text .label {
+    font-size: 30px;
+    font-weight: 700;
+    color: #201919;
+}
+
+.contact-text .value {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.slogan {
+    font-family: 'Instrument Serif', serif;
+    font-size: 30px;
+    color: black;
+    max-width: 1000px;
+}
